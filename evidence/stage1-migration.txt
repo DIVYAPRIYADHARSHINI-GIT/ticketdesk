@@ -1,0 +1,1 @@
+Generating /Users/softage/Designer Projects/starter/ticketdesk/backend/migrations/versions/edf921c6d08a_initial_schema.py ...  done

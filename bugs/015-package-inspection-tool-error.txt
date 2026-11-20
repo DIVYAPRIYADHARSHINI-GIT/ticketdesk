@@ -1,0 +1,5 @@
+Diagnostic command failure, 20 November 2026 IST.
+`npm view @playwright/test version --cache ../.cache/npm` succeeded: 1.65.1.
+`node -p require('@axe-core/playwright/package.json').dependencies` failed:
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './package.json' is not defined by exports in @axe-core/playwright/package.json.
+Node v26.13.1. No application source changed. Recovery: use package files/read APIs or npm metadata rather than require a non-exported package subpath. Version alignment can proceed with the successful registry result.

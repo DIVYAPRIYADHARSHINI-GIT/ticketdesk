@@ -1,0 +1,14 @@
+export type Role = 'employee'|'agent'|'admin';
+export type User = {id:number; name:string; email:string; role:Role; active:boolean; demo:boolean};
+export const priorities = ['Low','Medium','High','Urgent'] as const;
+export const statuses = ['Open','In progress','Waiting for requester','Resolved','Closed','Reopened'] as const;
+export type Ticket = {id:number;number:string;title:string;description:string;category_id:number;category:string;requester_id:number;requester:string;assignee_id:number|null;assignee:string|null;priority:string;status:string;created_at:number;updated_at:number;first_response_at:number|null;resolved_at:number|null;response_due:number;resolution_due:number;response_target:number;resolution_target:number;waiting_since:number|null;paused_seconds:number;sla:string;attachment?:{id:number;filename:string;size:number;mime:string}|null;rating?:{stars:number;comment:string}|null};
+export type Category = {id:number;name:string;active:boolean};
+export type Agent = {id:number;name:string;role:Role};
+export type SavedReply = {id:number;title:string;body:string};
+export type SLARule = {priority:string;response_minutes:number;resolution_minutes:number};
+export type Conversation = {id:number;author:string;body:string;internal:boolean;created_at:number};
+export type History = {id:number;actor:string;field:string;old:string;new:string;created_at:number};
+export type Notice = {id:number;ticket_id:number;number:string;kind:string;read:boolean;created_at:number};
+export type Group = {name:string;count:number};
+export type Report = {total:number;open:number;closed:number;avg_first_response_seconds:number|null;avg_resolution_seconds:number|null;sla_compliance:number|null;satisfaction:number|null;rating_count:number;by_status:Group[];by_category:Group[];by_priority:Group[];over_time:Group[];workload:Group[];from:string;to:string};

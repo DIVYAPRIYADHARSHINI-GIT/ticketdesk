@@ -1,0 +1,8 @@
+Stage 4 third attempt failed during TypeScript build before any browser test ran.
+Observed:
+tests/journeys.spec.ts(17,80): error TS2740: Type 'Page' is missing the following properties from type 'Page': ariaSnapshot, ariaSnapshotJSON, cancelPickLocator, clearConsoleMessages, and 8 more.
+The test runner was pinned to Playwright 1.56.1, while axe's compatible-range dependency installed a newer playwright-core with a larger Page type. Fix: align the direct Playwright test version with the current core rather than casting away the type error.
+The shell wrapper also tried to cat/copy a browser log that did not exist because build failed first:
+cat: ../evidence/local-third-browser.txt: No such file or directory
+cp: ../evidence/local-third-browser.txt: No such file or directory
+No missing log is represented as a browser run. Original build transcript remains in evidence/stage4-build-third.txt. This diagnostic records both errors permanently.

@@ -1,0 +1,4 @@
+Follow-up to 001, not replacing original evidence:
+The created virtual environment reports:
+3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 17.0.0 (clang-1700.6.4.2)]
+This differs from the earlier python3 --version output of 3.11.15. Wheel resolution also selected cp315. Therefore actual tests so far ran on Python 3.15.2, not 3.11.15. Production remains pinned to documented-supported 3.12. Exact hosting-runtime parity remains unverified. Stage 1: migration succeeded; 9 tests passed.

@@ -1,0 +1,5 @@
+
+> ticketdesk-web@1.0.0 build
+> tsc -b && vite build
+
+tests/journeys.spec.ts(17,80): error TS2740: Type 'Page' is missing the following properties from type 'Page': ariaSnapshot, ariaSnapshotJSON, cancelPickLocator, clearConsoleMessages, and 8 more.

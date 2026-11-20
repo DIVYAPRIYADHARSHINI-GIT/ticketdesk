@@ -1,0 +1,5 @@
+Stage 1 dependency installation FAILED (exit 1).
+Observed 20 November 2026 IST:
+ERROR: Could not find a version that satisfies the requirement psycopg-binary==3.2.9; implementation_name != "pypy" and extra == "binary" (from psycopg[binary]) (from versions: 3.3.6, 3.3.7, 3.3.8, 3.3.9)
+ERROR: No matching distribution found for psycopg-binary==3.2.9
+Action: update both dependency manifests to psycopg[binary]==3.3.9, an available version, then retry. Original failure retained.

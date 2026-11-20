@@ -1,0 +1,8 @@
+{
+  "test": "07 admin users, role changes, categories, SLA and saved replies",
+  "status": "failed",
+  "errors": [
+    "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('status')\nExpected: \u001b[32m\"Changes saved.\"\u001b[39m\nError: strict mode violation: getByRole('status') resolved to 2 elements:\n    1) <div role=\"status\" class=\"success-message\">Changes saved.</div> aka getByText('Changes saved.')\n    2) <div class=\"state\" role=\"status\">…</div> aka getByText('Getting your workspace ready…')\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"status\" class=\"sr-only\"></div>\u001b[22m\n\u001b[2m    - unexpected value \"\"\u001b[22m\n"
+  ],
+  "console": []
+}

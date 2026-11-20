@@ -1,0 +1,649 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/26.13.1/bin/node",
+      "/Users/softage/Designer Projects/starter/ticketdesk/frontend/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/playwright.config.ts",
+    "rootDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "snapshotDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://localhost:5174",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../evidence/local-fourth-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "journeys.spec.ts",
+      "file": "journeys.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete local Chrome journeys",
+          "file": "journeys.spec.ts",
+          "line": 20,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01 home page and keyboard entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1429,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:15.220Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-bd457a1b3cf975073608",
+              "file": "journeys.spec.ts",
+              "line": 21,
+              "column": 2
+            },
+            {
+              "title": "02 sign-in and accessible demo options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 753,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:18.916Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0d176e90b7e52eea5b85",
+              "file": "journeys.spec.ts",
+              "line": 22,
+              "column": 2
+            },
+            {
+              "title": "03 signup, normal sign-in, HTTP-only cookie and reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 996,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:19.683Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-6aa783f3223c6a082498",
+              "file": "journeys.spec.ts",
+              "line": 23,
+              "column": 2
+            },
+            {
+              "title": "04 employee ticket list and new request with database attachment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2360,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:20.693Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-9088746c2d066f70a02e",
+              "file": "journeys.spec.ts",
+              "line": 24,
+              "column": 2
+            },
+            {
+              "title": "05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2343,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:23.063Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0927a7db5916b8d34227",
+              "file": "journeys.spec.ts",
+              "line": 25,
+              "column": 2
+            },
+            {
+              "title": "06 employee receives notification, cannot see internal note, rates and reopens",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1235,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:25.417Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-f22232ddd0fc08cfd4df",
+              "file": "journeys.spec.ts",
+              "line": 26,
+              "column": 2
+            },
+            {
+              "title": "07 admin users, role changes, categories, SLA and saved replies",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1217,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('status')\nExpected: \u001b[32m\"Changes saved.\"\u001b[39m\nError: strict mode violation: getByRole('status') resolved to 2 elements:\n    1) <div role=\"status\" class=\"success-message\">Changes saved.</div> aka getByText('Changes saved.')\n    2) <div class=\"state\" role=\"status\">…</div> aka getByText('Getting your workspace ready…')\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"status\" class=\"sr-only\"></div>\u001b[22m\n\u001b[2m    - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('status')\nExpected: \u001b[32m\"Changes saved.\"\u001b[39m\nError: strict mode violation: getByRole('status') resolved to 2 elements:\n    1) <div role=\"status\" class=\"success-message\">Changes saved.</div> aka getByText('Changes saved.')\n    2) <div class=\"state\" role=\"status\">…</div> aka getByText('Getting your workspace ready…')\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"status\" class=\"sr-only\"></div>\u001b[22m\n\u001b[2m    - unexpected value \"\"\u001b[22m\n\n    at /Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:27:964",
+                        "location": {
+                          "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                          "column": 964,
+                          "line": 27
+                        },
+                        "snippet": "  25 |  test('05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution',async({page})=>{await demo(page,'Agent');await expect(page.getByRole('heading',{name:'Support queue',exact:true})).toBeVisible();await shot(page,'07-agent-queue');await audit(page,'agent-queue');await page.getByRole('button',{name:'Next',exact:true}).click();await expect(page.getByText('Page 2',{exact:true})).toBeVisible();await page.getByLabel('Search tickets').fill(title);await expect(page.getByRole('link',{name:title})).toBeVisible();await page.getByLabel('Select all tickets on this page').check();await page.getByLabel('Bulk assign to').selectOption({label:'Jordan Reed'});await page.getByRole('button',{name:'Assign selected'}).click();await expect(page.getByText('1 selected',{exact:true})).not.toBeVisible();await page.getByRole('link',{name:title}).click();await page.getByLabel('Ticket status').selectOption('In progress');await expect(page.getByLabel('Ticket status')).toHaveValue('In progress');await page.getByRole('button',{name:'Internal note',exact:true}).click();await page.getByLabel('Internal note',{exact:true}).fill('E2E TEST PRIVATE NOTE — never show this to the employee.');await page.getByRole('button',{name:'Add internal note'}).click();await expect(page.getByText('E2E TEST PRIVATE NOTE — never show this to the employee.',{exact:true})).toBeVisible();await shot(page,'08-agent-internal-note');await page.getByRole('button',{name:'Public reply',exact:true}).click();await page.getByLabel('Use a saved reply').selectOption({label:'Taking a look'});await expect(page.getByLabel('Your reply')).toHaveValue(/Thanks for the details\\./);await page.getByRole('button',{name:'Send reply'}).click();await expect(page.getByText('Thanks for the details. I am looking into this and will share the next steps shortly.',{exact:true})).toBeVisible();await page.getByLabel('Ticket status').selectOption('Waiting for requester');await expect(page.getByText('Clock paused · waiting for requester')).toBeVisible();await shot(page,'09-waiting-sla-paused');await page.getByLabel('Ticket status').selectOption('Resolved');await expect(page.getByLabel('Ticket status')).toHaveValue('Resolved');await page.getByRole('tab',{name:'History',exact:true}).click();await expect(page.getByText(/Jordan Reed/).first()).toBeVisible();await shot(page,'10-history-timeline')});\n  26 |  test('06 employee receives notification, cannot see internal note, rates and reopens',async({page})=>{await demo(page,'Employee');await page.getByRole('button',{name:/Notifications,/}).click();await expect(page.getByRole('heading',{name:'Notifications',exact:true})).toBeVisible();await shot(page,'11-notifications');await audit(page,'notifications');await page.getByRole('button',{name:'Close notifications'}).click();await page.goto(ticketUrl);await expect(page.getByRole('heading',{name:title})).toBeVisible();await expect(page.getByText('E2E TEST PRIVATE NOTE — never show this to the employee.',{exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'Internal note',exact:true})).toHaveCount(0);await page.getByRole('button',{name:'5 stars',exact:true}).click();await page.getByLabel('Anything else you’d like to share? (optional)').fill('E2E TEST feedback: clear and helpful.');await page.getByRole('button',{name:'Submit rating'}).click();await expect(page.getByRole('heading',{name:'Thanks for the feedback.'})).toBeVisible();await shot(page,'12-employee-satisfaction');await page.getByLabel('Ticket status').selectOption('Closed');await expect(page.getByLabel('Ticket status')).toHaveValue('Closed');await page.getByLabel('Ticket status').selectOption('Reopened');await expect(page.getByLabel('Ticket status')).toHaveValue('Reopened')});\n> 27 |  test('07 admin users, role changes, categories, SLA and saved replies',async({page})=>{await demo(page,'Admin');await page.getByRole('link',{name:'Administration',exact:true}).click();await expect(page.getByRole('heading',{name:'People & roles',exact:true})).toBeVisible();await shot(page,'13-admin-users');await audit(page,'admin-users');const row=page.locator('form').filter({has:page.getByText(signupEmail,{exact:true})});await row.getByLabel('Role for E2E TEST Employee').selectOption('agent');await row.getByRole('button',{name:'Save',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await expect(page.getByLabel('Role for E2E TEST Employee')).toHaveValue('agent');await page.getByRole('tab',{name:'Categories',exact:true}).click();await page.getByLabel('New category name').fill('E2E TEST Category '+run);await page.getByRole('button',{name:'Add category',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await shot(page,'14-admin-categories');await audit(page,'admin-categories');await page.getByRole('tab',{name:'SLA rules'}).click();await shot(page,'15-admin-sla-rules');await audit(page,'admin-sla');await page.getByRole('button',{name:'Save low rule'}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await page.getByRole('tab',{name:'Saved replies'}).click();await page.getByLabel('New reply title').fill('E2E TEST Saved Reply '+run);await page.getByLabel('New reply message').fill('E2E TEST response for a fictional request.');await page.getByRole('button',{name:'Add saved reply'}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await shot(page,'16-admin-saved-replies');await audit(page,'admin-replies')});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  28 |  test('08 admin reports date filters, SQL aggregates and CSV download',async({page})=>{await demo(page,'Admin');await expect(page.getByRole('heading',{name:'Support, by the numbers.'})).toBeVisible();await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'17-reports-light');await audit(page,'reports-light');const download=page.waitForEvent('download');await page.getByRole('link',{name:'Export CSV'}).click();const file=await download;const stream=await file.createReadStream();let text='';for await(const chunk of stream!)text+=chunk.toString();expect(text).toContain('Section,Metric,Value');expect(text).toContain('sla_compliance');await page.getByLabel('Report start date').fill(new Date().toISOString().slice(0,10));await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Switch to dark theme'}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'18-reports-dark');await audit(page,'reports-dark')});\n  29 |  test('09 mobile employee journey and dark theme',async({page})=>{await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.getByRole('heading',{name:'Office support. All sorted.'})).toBeVisible();await noOverflow(page);await shot(page,'19-mobile-home');await audit(page,'mobile-home');await demo(page,'Employee');await expect(page.getByRole('heading',{name:'My tickets',exact:true})).toBeVisible();await noOverflow(page);await shot(page,'20-mobile-ticket-list');await audit(page,'mobile-list');await page.getByRole('button',{name:'Toggle navigation'}).click();await expect(page.getByRole('link',{name:'New request',exact:true}).first()).toBeVisible();await page.getByRole('button',{name:'Toggle navigation'}).click();await page.getByRole('button',{name:'Switch to dark theme'}).click();await noOverflow(page);await shot(page,'21-mobile-dark');await audit(page,'mobile-dark');await page.goto(ticketUrl);await expect(page.getByRole('heading',{name:title})).toBeVisible();await noOverflow(page);await shot(page,'22-mobile-ticket-detail');await audit(page,'mobile-detail')});\n  30 |  test('10 tablet admin responsive layout',async({page})=>{await page.setViewportSize({width:820,height:1180});await demo(page,'Admin');await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await noOverflow(page);await shot(page,'23-tablet-reports');await audit(page,'tablet-reports')});"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "column": 964,
+                            "line": 27
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('status')\nExpected: \u001b[32m\"Changes saved.\"\u001b[39m\nError: strict mode violation: getByRole('status') resolved to 2 elements:\n    1) <div role=\"status\" class=\"success-message\">Changes saved.</div> aka getByText('Changes saved.')\n    2) <div class=\"state\" role=\"status\">…</div> aka getByText('Getting your workspace ready…')\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByRole('status') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('status')\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"status\" class=\"sr-only\"></div>\u001b[22m\n\u001b[2m    - unexpected value \"\"\u001b[22m\n\n\n  25 |  test('05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution',async({page})=>{await demo(page,'Agent');await expect(page.getByRole('heading',{name:'Support queue',exact:true})).toBeVisible();await shot(page,'07-agent-queue');await audit(page,'agent-queue');await page.getByRole('button',{name:'Next',exact:true}).click();await expect(page.getByText('Page 2',{exact:true})).toBeVisible();await page.getByLabel('Search tickets').fill(title);await expect(page.getByRole('link',{name:title})).toBeVisible();await page.getByLabel('Select all tickets on this page').check();await page.getByLabel('Bulk assign to').selectOption({label:'Jordan Reed'});await page.getByRole('button',{name:'Assign selected'}).click();await expect(page.getByText('1 selected',{exact:true})).not.toBeVisible();await page.getByRole('link',{name:title}).click();await page.getByLabel('Ticket status').selectOption('In progress');await expect(page.getByLabel('Ticket status')).toHaveValue('In progress');await page.getByRole('button',{name:'Internal note',exact:true}).click();await page.getByLabel('Internal note',{exact:true}).fill('E2E TEST PRIVATE NOTE — never show this to the employee.');await page.getByRole('button',{name:'Add internal note'}).click();await expect(page.getByText('E2E TEST PRIVATE NOTE — never show this to the employee.',{exact:true})).toBeVisible();await shot(page,'08-agent-internal-note');await page.getByRole('button',{name:'Public reply',exact:true}).click();await page.getByLabel('Use a saved reply').selectOption({label:'Taking a look'});await expect(page.getByLabel('Your reply')).toHaveValue(/Thanks for the details\\./);await page.getByRole('button',{name:'Send reply'}).click();await expect(page.getByText('Thanks for the details. I am looking into this and will share the next steps shortly.',{exact:true})).toBeVisible();await page.getByLabel('Ticket status').selectOption('Waiting for requester');await expect(page.getByText('Clock paused · waiting for requester')).toBeVisible();await shot(page,'09-waiting-sla-paused');await page.getByLabel('Ticket status').selectOption('Resolved');await expect(page.getByLabel('Ticket status')).toHaveValue('Resolved');await page.getByRole('tab',{name:'History',exact:true}).click();await expect(page.getByText(/Jordan Reed/).first()).toBeVisible();await shot(page,'10-history-timeline')});\n  26 |  test('06 employee receives notification, cannot see internal note, rates and reopens',async({page})=>{await demo(page,'Employee');await page.getByRole('button',{name:/Notifications,/}).click();await expect(page.getByRole('heading',{name:'Notifications',exact:true})).toBeVisible();await shot(page,'11-notifications');await audit(page,'notifications');await page.getByRole('button',{name:'Close notifications'}).click();await page.goto(ticketUrl);await expect(page.getByRole('heading',{name:title})).toBeVisible();await expect(page.getByText('E2E TEST PRIVATE NOTE — never show this to the employee.',{exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'Internal note',exact:true})).toHaveCount(0);await page.getByRole('button',{name:'5 stars',exact:true}).click();await page.getByLabel('Anything else you’d like to share? (optional)').fill('E2E TEST feedback: clear and helpful.');await page.getByRole('button',{name:'Submit rating'}).click();await expect(page.getByRole('heading',{name:'Thanks for the feedback.'})).toBeVisible();await shot(page,'12-employee-satisfaction');await page.getByLabel('Ticket status').selectOption('Closed');await expect(page.getByLabel('Ticket status')).toHaveValue('Closed');await page.getByLabel('Ticket status').selectOption('Reopened');await expect(page.getByLabel('Ticket status')).toHaveValue('Reopened')});\n> 27 |  test('07 admin users, role changes, categories, SLA and saved replies',async({page})=>{await demo(page,'Admin');await page.getByRole('link',{name:'Administration',exact:true}).click();await expect(page.getByRole('heading',{name:'People & roles',exact:true})).toBeVisible();await shot(page,'13-admin-users');await audit(page,'admin-users');const row=page.locator('form').filter({has:page.getByText(signupEmail,{exact:true})});await row.getByLabel('Role for E2E TEST Employee').selectOption('agent');await row.getByRole('button',{name:'Save',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await expect(page.getByLabel('Role for E2E TEST Employee')).toHaveValue('agent');await page.getByRole('tab',{name:'Categories',exact:true}).click();await page.getByLabel('New category name').fill('E2E TEST Category '+run);await page.getByRole('button',{name:'Add category',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await shot(page,'14-admin-categories');await audit(page,'admin-categories');await page.getByRole('tab',{name:'SLA rules'}).click();await shot(page,'15-admin-sla-rules');await audit(page,'admin-sla');await page.getByRole('button',{name:'Save low rule'}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await page.getByRole('tab',{name:'Saved replies'}).click();await page.getByLabel('New reply title').fill('E2E TEST Saved Reply '+run);await page.getByLabel('New reply message').fill('E2E TEST response for a fictional request.');await page.getByRole('button',{name:'Add saved reply'}).click();await expect(page.getByRole('status')).toHaveText('Changes saved.');await shot(page,'16-admin-saved-replies');await audit(page,'admin-replies')});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  28 |  test('08 admin reports date filters, SQL aggregates and CSV download',async({page})=>{await demo(page,'Admin');await expect(page.getByRole('heading',{name:'Support, by the numbers.'})).toBeVisible();await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'17-reports-light');await audit(page,'reports-light');const download=page.waitForEvent('download');await page.getByRole('link',{name:'Export CSV'}).click();const file=await download;const stream=await file.createReadStream();let text='';for await(const chunk of stream!)text+=chunk.toString();expect(text).toContain('Section,Metric,Value');expect(text).toContain('sla_compliance');await page.getByLabel('Report start date').fill(new Date().toISOString().slice(0,10));await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Switch to dark theme'}).click();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'18-reports-dark');await audit(page,'reports-dark')});\n  29 |  test('09 mobile employee journey and dark theme',async({page})=>{await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.getByRole('heading',{name:'Office support. All sorted.'})).toBeVisible();await noOverflow(page);await shot(page,'19-mobile-home');await audit(page,'mobile-home');await demo(page,'Employee');await expect(page.getByRole('heading',{name:'My tickets',exact:true})).toBeVisible();await noOverflow(page);await shot(page,'20-mobile-ticket-list');await audit(page,'mobile-list');await page.getByRole('button',{name:'Toggle navigation'}).click();await expect(page.getByRole('link',{name:'New request',exact:true}).first()).toBeVisible();await page.getByRole('button',{name:'Toggle navigation'}).click();await page.getByRole('button',{name:'Switch to dark theme'}).click();await noOverflow(page);await shot(page,'21-mobile-dark');await audit(page,'mobile-dark');await page.goto(ticketUrl);await expect(page.getByRole('heading',{name:title})).toBeVisible();await noOverflow(page);await shot(page,'22-mobile-ticket-detail');await audit(page,'mobile-detail')});\n  30 |  test('10 tablet admin responsive layout',async({page})=>{await page.setViewportSize({width:820,height:1180});await demo(page,'Admin');await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await noOverflow(page);await shot(page,'23-tablet-reports');await audit(page,'tablet-reports')});\n    at /Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:27:964"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:26.665Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results/journeys-Complete-local-Ch-41c0b-ories-SLA-and-saved-replies/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "column": 964,
+                        "line": 27
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-7f5d780dcac64adb93ab",
+              "file": "journeys.spec.ts",
+              "line": 27,
+              "column": 2
+            },
+            {
+              "title": "08 admin reports date filters, SQL aggregates and CSV download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:27.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-a18dcc0af09d3ee825a9",
+              "file": "journeys.spec.ts",
+              "line": 28,
+              "column": 2
+            },
+            {
+              "title": "09 mobile employee journey and dark theme",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:27.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-2959c8b99e3b59d88bc0",
+              "file": "journeys.spec.ts",
+              "line": 29,
+              "column": 2
+            },
+            {
+              "title": "10 tablet admin responsive layout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:49:27.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-940459d6357dd0b9f150",
+              "file": "journeys.spec.ts",
+              "line": 30,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T09:49:10.918Z",
+    "duration": 17069.789,
+    "expected": 6,
+    "skipped": 3,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

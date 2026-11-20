@@ -1,0 +1,2 @@
+Deleting disposable project-local e2e.db. Row counts: {'users': 8, 'tickets': 61, 'comments': 69, 'attachments': 1, 'history': 185, 'ratings': 20, 'categories': 4, 'saved_replies': 3}
+All E2E accounts, tickets, uploads and configuration fixtures removed. Development ticketdesk.db untouched.

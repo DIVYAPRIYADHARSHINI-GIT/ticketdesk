@@ -1,0 +1,27 @@
+# All environment files, including examples (documented in DEPLOY.md)
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+.venv*/
+**/.venv/
+*.tsbuildinfo
+.cache/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/*.db
+**/*.db-*
+**/*.sqlite*
+**/node_modules/
+**/dist/
+**/.vercel/
+**/test-results/
+**/playwright-report/
+.DS_Store
+*.log
+screenshots/*.pdf
+FINAL_REPORT.pdf

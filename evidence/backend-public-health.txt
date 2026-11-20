@@ -1,0 +1,2 @@
+Public backend /health HTTP 200
+{'status': 'ok', 'database': 'connected'}

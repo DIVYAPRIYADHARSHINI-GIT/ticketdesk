@@ -1,0 +1,13 @@
+Using CPython 3.14.6 interpreter at: /opt/homebrew/opt/python@3.14/bin/python3.14
+Creating virtual environment at: .venv314
+Downloading pydantic-core (2.0MiB)
+Downloading psycopg-binary (3.9MiB)
+Downloading sqlalchemy (1.8MiB)
+ Downloaded sqlalchemy
+ Downloaded pydantic-core
+ Downloaded psycopg-binary
+Installed 32 packages in 27ms
+ImportError while loading conftest '/Users/softage/Designer Projects/starter/ticketdesk/backend/tests/conftest.py'.
+backend/tests/conftest.py:8: in <module>
+    from app.db import Base, get_db
+E   ModuleNotFoundError: No module named 'app'

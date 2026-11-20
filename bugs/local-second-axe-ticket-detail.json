@@ -1,0 +1,15 @@
+[
+  {
+    "id": "definition-list",
+    "impact": "serious",
+    "description": "Ensure <dl> elements are structured correctly",
+    "nodes": [
+      {
+        "target": [
+          ".sla-dates"
+        ],
+        "summary": "Fix all of the following:\n  dl element has direct children that are not allowed: div > small"
+      }
+    ]
+  }
+]

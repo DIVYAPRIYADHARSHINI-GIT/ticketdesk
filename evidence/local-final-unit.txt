@@ -1,0 +1,14 @@
+
+> ticketdesk-web@1.0.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.1 [39m[90m/Users/softage/Designer Projects/starter/ticketdesk/frontend[39m
+
+ [32m✓[39m src/components.test.tsx [2m([22m[2m26 tests[22m[2m)[22m[32m 137[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m26 passed[39m[22m[90m (26)[39m
+[2m   Start at [22m 15:21:51
+[2m   Duration [22m 768ms[2m (environment 58%, tests 21%, setup 14%, transform 6%, import 1%)[22m
+

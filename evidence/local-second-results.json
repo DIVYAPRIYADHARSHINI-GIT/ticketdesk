@@ -1,0 +1,457 @@
+{
+  "config": {
+    "configFile": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/playwright.config.ts",
+    "rootDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../evidence/local-second-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "journeys.spec.ts",
+      "file": "journeys.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete local Chrome journeys",
+          "file": "journeys.spec.ts",
+          "line": 94,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01 home page and keyboard entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1134,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:48.337Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-bd457a1b3cf975073608",
+              "file": "journeys.spec.ts",
+              "line": 95,
+              "column": 3
+            },
+            {
+              "title": "02 sign-in and accessible demo options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 589,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:51.032Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0d176e90b7e52eea5b85",
+              "file": "journeys.spec.ts",
+              "line": 110,
+              "column": 3
+            },
+            {
+              "title": "03 signup, normal sign-in, HTTP-only cookie and reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 885,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:51.631Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-6aa783f3223c6a082498",
+              "file": "journeys.spec.ts",
+              "line": 118,
+              "column": 3
+            },
+            {
+              "title": "04 employee ticket list and new request with database attachment",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2484,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 16\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure <dl> elements are structured correctly\",\u001b[39m\n\u001b[31m+     \"id\": \"definition-list\",\u001b[39m\n\u001b[31m+     \"impact\": \"serious\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"summary\": \"Fix all of the following:\u001b[39m\n\u001b[31m+   dl element has direct children that are not allowed: div > small\",\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".sla-dates\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 16\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure <dl> elements are structured correctly\",\u001b[39m\n\u001b[31m+     \"id\": \"definition-list\",\u001b[39m\n\u001b[31m+     \"impact\": \"serious\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"summary\": \"Fix all of the following:\u001b[39m\n\u001b[31m+   dl element has direct children that are not allowed: div > small\",\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".sla-dates\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at audit (/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:17:697)\n    at /Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:24:1478",
+                        "location": {
+                          "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                          "column": 697,
+                          "line": 17
+                        },
+                        "snippet": "  15 | async function shot(page:Page,name:string){await page.screenshot({path:path.join(shots,name+'.png'),fullPage:true})}\n  16 | async function demo(page:Page,role:'Employee'|'Agent'|'Admin'){await page.goto('/signin');await page.getByRole('button',{name:new RegExp('^'+role+' ')}).click();await expect(page.getByRole('button',{name:'Sign out'})).toBeVisible()}\n> 17 | async function audit(page:Page,name:string){const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();const violations=result.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}));fs.writeFileSync(path.resolve('../evidence',run+'-axe-'+name+'.json'),JSON.stringify({violations,passes:result.passes.length},null,2));if(violations.length){await shot(page,'audit-'+name);fs.writeFileSync(path.join(bugs,run+'-axe-'+name+'.json'),JSON.stringify(violations,null,2));await page.screenshot({path:path.join(bugs,run+'-axe-'+name+'.png'),fullPage:true})}expect(violations).toEqual([])}\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^\n  18 | async function noOverflow(page:Page){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'No horizontal overflow').toBe(true)}\n  19 |\n  20 | test.describe.serial('Complete local Chrome journeys',()=>{"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "column": 697,
+                            "line": 17
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 16\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"description\": \"Ensure <dl> elements are structured correctly\",\u001b[39m\n\u001b[31m+     \"id\": \"definition-list\",\u001b[39m\n\u001b[31m+     \"impact\": \"serious\",\u001b[39m\n\u001b[31m+     \"nodes\": Array [\u001b[39m\n\u001b[31m+       Object {\u001b[39m\n\u001b[31m+         \"summary\": \"Fix all of the following:\u001b[39m\n\u001b[31m+   dl element has direct children that are not allowed: div > small\",\u001b[39m\n\u001b[31m+         \"target\": Array [\u001b[39m\n\u001b[31m+           \".sla-dates\",\u001b[39m\n\u001b[31m+         ],\u001b[39m\n\u001b[31m+       },\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  15 | async function shot(page:Page,name:string){await page.screenshot({path:path.join(shots,name+'.png'),fullPage:true})}\n  16 | async function demo(page:Page,role:'Employee'|'Agent'|'Admin'){await page.goto('/signin');await page.getByRole('button',{name:new RegExp('^'+role+' ')}).click();await expect(page.getByRole('button',{name:'Sign out'})).toBeVisible()}\n> 17 | async function audit(page:Page,name:string){const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();const violations=result.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}));fs.writeFileSync(path.resolve('../evidence',run+'-axe-'+name+'.json'),JSON.stringify({violations,passes:result.passes.length},null,2));if(violations.length){await shot(page,'audit-'+name);fs.writeFileSync(path.join(bugs,run+'-axe-'+name+'.json'),JSON.stringify(violations,null,2));await page.screenshot({path:path.join(bugs,run+'-axe-'+name+'.png'),fullPage:true})}expect(violations).toEqual([])}\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^\n  18 | async function noOverflow(page:Page){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'No horizontal overflow').toBe(true)}\n  19 |\n  20 | test.describe.serial('Complete local Chrome journeys',()=>{\n    at audit (/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:17:697)\n    at /Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:24:1478"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:52.526Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results/journeys-Complete-local-Ch-c274f-st-with-database-attachment/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "column": 697,
+                        "line": 17
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-9088746c2d066f70a02e",
+              "file": "journeys.spec.ts",
+              "line": 161,
+              "column": 3
+            },
+            {
+              "title": "05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.080Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0927a7db5916b8d34227",
+              "file": "journeys.spec.ts",
+              "line": 229,
+              "column": 3
+            },
+            {
+              "title": "06 employee receives notification, cannot see internal note, rates and reopens",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-f22232ddd0fc08cfd4df",
+              "file": "journeys.spec.ts",
+              "line": 305,
+              "column": 3
+            },
+            {
+              "title": "07 admin users, role changes, categories, SLA and saved replies",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-7f5d780dcac64adb93ab",
+              "file": "journeys.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "08 admin reports date filters, SQL aggregates and CSV download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-a18dcc0af09d3ee825a9",
+              "file": "journeys.spec.ts",
+              "line": 408,
+              "column": 3
+            },
+            {
+              "title": "09 mobile employee journey and dark theme",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-2959c8b99e3b59d88bc0",
+              "file": "journeys.spec.ts",
+              "line": 446,
+              "column": 3
+            },
+            {
+              "title": "10 tablet admin responsive layout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:46:55.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-940459d6357dd0b9f150",
+              "file": "journeys.spec.ts",
+              "line": 492,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T09:46:44.106Z",
+    "duration": 10998.869,
+    "expected": 3,
+    "skipped": 6,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

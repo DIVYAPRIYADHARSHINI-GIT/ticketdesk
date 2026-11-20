@@ -1,0 +1,23 @@
+
+> ticketdesk-web@1.0.0 test:e2e
+> playwright test
+
+[WebServer] INFO:     Started server process [92515]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+
+Running 10 tests using 1 worker
+
+  ✓   1 tests/journeys.spec.ts:21:2 › Complete local Chrome journeys › 01 home page and keyboard entry (1.1s)
+  ✓   2 tests/journeys.spec.ts:22:2 › Complete local Chrome journeys › 02 sign-in and accessible demo options (644ms)
+  ✓   3 tests/journeys.spec.ts:23:2 › Complete local Chrome journeys › 03 signup, normal sign-in, HTTP-only cookie and reload (910ms)
+  ✓   4 tests/journeys.spec.ts:24:2 › Complete local Chrome journeys › 04 employee ticket list and new request with database attachment (2.2s)
+  ✓   5 tests/journeys.spec.ts:25:2 › Complete local Chrome journeys › 05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution (2.2s)
+  ✓   6 tests/journeys.spec.ts:26:2 › Complete local Chrome journeys › 06 employee receives notification, cannot see internal note, rates and reopens (1.4s)
+  ✓   7 tests/journeys.spec.ts:27:2 › Complete local Chrome journeys › 07 admin users, role changes, categories, SLA and saved replies (2.4s)
+  ✓   8 tests/journeys.spec.ts:28:2 › Complete local Chrome journeys › 08 admin reports date filters, SQL aggregates and CSV download (1.6s)
+  ✓   9 tests/journeys.spec.ts:29:2 › Complete local Chrome journeys › 09 mobile employee journey and dark theme (2.3s)
+  ✓  10 tests/journeys.spec.ts:30:2 › Complete local Chrome journeys › 10 tablet admin responsive layout (838ms)
+
+  10 passed (21.2s)

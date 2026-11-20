@@ -1,0 +1,68 @@
+
+> ticketdesk-web@1.0.0 test:e2e
+> playwright test
+
+(node:91748) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[WebServer] INFO:     Started server process [91762]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+
+Running 10 tests using 1 worker
+
+(node:91787) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  ✓   1 tests/journeys.spec.ts:95:3 › Complete local Chrome journeys › 01 home page and keyboard entry (1.1s)
+  ✓   2 tests/journeys.spec.ts:110:3 › Complete local Chrome journeys › 02 sign-in and accessible demo options (589ms)
+  ✓   3 tests/journeys.spec.ts:118:3 › Complete local Chrome journeys › 03 signup, normal sign-in, HTTP-only cookie and reload (885ms)
+  ✘   4 tests/journeys.spec.ts:161:3 › Complete local Chrome journeys › 04 employee ticket list and new request with database attachment (2.5s)
+  -   5 tests/journeys.spec.ts:229:3 › Complete local Chrome journeys › 05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution
+  -   6 tests/journeys.spec.ts:305:3 › Complete local Chrome journeys › 06 employee receives notification, cannot see internal note, rates and reopens
+  -   7 tests/journeys.spec.ts:349:3 › Complete local Chrome journeys › 07 admin users, role changes, categories, SLA and saved replies
+  -   8 tests/journeys.spec.ts:408:3 › Complete local Chrome journeys › 08 admin reports date filters, SQL aggregates and CSV download
+  -   9 tests/journeys.spec.ts:446:3 › Complete local Chrome journeys › 09 mobile employee journey and dark theme
+  -  10 tests/journeys.spec.ts:492:3 › Complete local Chrome journeys › 10 tablet admin responsive layout
+
+
+  1) tests/journeys.spec.ts:161:3 › Complete local Chrome journeys › 04 employee ticket list and new request with database attachment 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+    [32m- Expected  -  1[39m
+    [31m+ Received  + 16[39m
+
+    [32m- Array [][39m
+    [31m+ Array [[39m
+    [31m+   Object {[39m
+    [31m+     "description": "Ensure <dl> elements are structured correctly",[39m
+    [31m+     "id": "definition-list",[39m
+    [31m+     "impact": "serious",[39m
+    [31m+     "nodes": Array [[39m
+    [31m+       Object {[39m
+    [31m+         "summary": "Fix all of the following:[39m
+    [31m+   dl element has direct children that are not allowed: div > small",[39m
+    [31m+         "target": Array [[39m
+    [31m+           ".sla-dates",[39m
+    [31m+         ],[39m
+    [31m+       },[39m
+    [31m+     ],[39m
+    [31m+   },[39m
+    [31m+ ][39m
+
+      15 | async function shot(page:Page,name:string){await page.screenshot({path:path.join(shots,name+'.png'),fullPage:true})}
+      16 | async function demo(page:Page,role:'Employee'|'Agent'|'Admin'){await page.goto('/signin');await page.getByRole('button',{name:new RegExp('^'+role+' ')}).click();await expect(page.getByRole('button',{name:'Sign out'})).toBeVisible()}
+    > 17 | async function audit(page:Page,name:string){const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();const violations=result.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}));fs.writeFileSync(path.resolve('../evidence',run+'-axe-'+name+'.json'),JSON.stringify({violations,passes:result.passes.length},null,2));if(violations.length){await shot(page,'audit-'+name);fs.writeFileSync(path.join(bugs,run+'-axe-'+name+'.json'),JSON.stringify(violations,null,2));await page.screenshot({path:path.join(bugs,run+'-axe-'+name+'.png'),fullPage:true})}expect(violations).toEqual([])}
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+      18 | async function noOverflow(page:Page){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'No horizontal overflow').toBe(true)}
+      19 |
+      20 | test.describe.serial('Complete local Chrome journeys',()=>{
+        at audit (/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:17:697)
+        at /Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts:24:1478
+
+    Error Context: test-results/journeys-Complete-local-Ch-c274f-st-with-database-attachment/error-context.md
+
+  1 failed
+    tests/journeys.spec.ts:161:3 › Complete local Chrome journeys › 04 employee ticket list and new request with database attachment 
+  6 did not run
+  3 passed (11.0s)

@@ -1,0 +1,9 @@
+.env*
+*.db
+*.db-*
+*.sqlite*
+__pycache__
+**/__pycache__
+.pytest_cache
+tests
+tools/reset_e2e.py
