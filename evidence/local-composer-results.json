@@ -1,0 +1,646 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/26.13.1/bin/node",
+      "/Users/softage/Designer Projects/starter/ticketdesk/frontend/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/playwright.config.ts",
+    "rootDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "snapshotDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://localhost:5174",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../evidence/local-composer-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "journeys.spec.ts",
+      "file": "journeys.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete local Chrome journeys",
+          "file": "journeys.spec.ts",
+          "line": 20,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01 home page and keyboard entry",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1180,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:45.099Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-bd457a1b3cf975073608",
+              "file": "journeys.spec.ts",
+              "line": 21,
+              "column": 2
+            },
+            {
+              "title": "02 sign-in and accessible demo options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 546,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:48.521Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0d176e90b7e52eea5b85",
+              "file": "journeys.spec.ts",
+              "line": 22,
+              "column": 2
+            },
+            {
+              "title": "03 signup, normal sign-in, HTTP-only cookie and reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 831,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:49.075Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-6aa783f3223c6a082498",
+              "file": "journeys.spec.ts",
+              "line": 23,
+              "column": 2
+            },
+            {
+              "title": "04 employee ticket list and new request with database attachment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1868,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:49.913Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-9088746c2d066f70a02e",
+              "file": "journeys.spec.ts",
+              "line": 24,
+              "column": 2
+            },
+            {
+              "title": "05 agent queue, filter, bulk assign, internal note, reply, waiting and resolution",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:51.795Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-0927a7db5916b8d34227",
+              "file": "journeys.spec.ts",
+              "line": 25,
+              "column": 2
+            },
+            {
+              "title": "06 employee receives notification, cannot see internal note, rates and reopens",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1073,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:53.570Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-f22232ddd0fc08cfd4df",
+              "file": "journeys.spec.ts",
+              "line": 26,
+              "column": 2
+            },
+            {
+              "title": "07 admin users, role changes, categories, SLA and saved replies",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2182,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:54.653Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-7f5d780dcac64adb93ab",
+              "file": "journeys.spec.ts",
+              "line": 27,
+              "column": 2
+            },
+            {
+              "title": "08 admin reports date filters, SQL aggregates and CSV download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1487,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:56.844Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-a18dcc0af09d3ee825a9",
+              "file": "journeys.spec.ts",
+              "line": 28,
+              "column": 2
+            },
+            {
+              "title": "09 mobile employee journey and dark theme",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2253,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:02:58.340Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-2959c8b99e3b59d88bc0",
+              "file": "journeys.spec.ts",
+              "line": 29,
+              "column": 2
+            },
+            {
+              "title": "10 tablet admin responsive layout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 45000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                        "line": 20,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 793,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:00.600Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/tests/journeys.spec.ts",
+                            "line": 20,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa09586c1d16412a1f00-940459d6357dd0b9f150",
+              "file": "journeys.spec.ts",
+              "line": 30,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T10:02:42.485Z",
+    "duration": 19004.220999999998,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,14 @@
+
+> ticketdesk-web@1.0.0 build
+> tsc -b && vite build
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 30 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.74 kB │ gzip:  0.47 kB
+dist/assets/index-n30MKmnH.css   49.04 kB │ gzip: 10.06 kB
+dist/assets/index-CjoUb_TY.js   292.54 kB │ gzip: 89.16 kB
+
+✓ built in 114ms

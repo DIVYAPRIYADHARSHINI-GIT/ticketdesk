@@ -1,0 +1,1 @@
+Frontend link repeated the same Vercel CLI behavior as the backend link: a fresh OIDC .env.local was automatically created. The command immediately deleted it without reading/opening it. Only the two intentionally authored .env.example files remained in the project, and every .env variant is ignored. No production environment pull command was run.

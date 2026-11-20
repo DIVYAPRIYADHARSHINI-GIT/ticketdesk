@@ -1,0 +1,526 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/26.13.1/bin/node",
+      "/Users/softage/Designer Projects/starter/ticketdesk/frontend/node_modules/.bin/playwright",
+      "test",
+      "-c",
+      "playwright.live.config.ts"
+    ],
+    "configFile": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/playwright.live.config.ts",
+    "rootDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "snapshotDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://ticketdesk-frontend-psi.vercel.app",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "video": "off",
+          "screenshot": "off",
+          "launchOptions": {
+            "args": [
+              "--test-third-party-cookie-phaseout"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../evidence/live-first-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "live.spec.ts",
+      "file": "live.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Live PostgreSQL and cross-domain proxy verification",
+          "file": "live.spec.ts",
+          "line": 16,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01 public home sign-in and real database health through frontend",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5107,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:57:20.073Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-38de4fa221b4d285a5f1",
+              "file": "live.spec.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "02 employee creates live ticket and database attachment with secure first-party session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5250,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:57:26.813Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-cb3cf2bf906982c36434",
+              "file": "live.spec.ts",
+              "line": 18,
+              "column": 2
+            },
+            {
+              "title": "03 agent queue assignment public reply internal note and resolution",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 90214,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 90000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "column": 1160,
+                            "line": 19
+                          },
+                          "message": "Error: locator.click: Test timeout of 90000ms exceeded.\nBrowser logs:\n\n<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,HttpsUpgrades,HttpsFirstBalancedModeAutoEnable,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,AvoidCorsURLLoaderRestartOnRedirect,TcpPortRandomizationWin,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,PreconnectToSearch,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface,SkipListAccountsWithoutGaiaCookies --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-unsafe-swiftshader --edge-skip-compat-layer-relaunch --disable-stack-profiler --disable-infobars --disable-sync --do-not-de-elevate --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --test-third-party-cookie-phaseout --user-data-dir=/Users/softage/Designer Projects/starter/ticketdesk/.cache/browser/playwright_chromiumdev_profile-qBwXCm --remote-debugging-pipe --no-startup-window\n<launched> pid=93475\n[pid=93475][err] Trying to load the allocator multiple times. This is *not* supported.\n[pid=93475][err] [93485:3028486:1120/152722.089676:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152722.090187:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152722.097132:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152722.097223:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152722.097682:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152722.097742:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152724.631655:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152724.631706:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152726.642351:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152726.642443:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152726.895663:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152726.895752:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152726.896519:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152726.896572:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152726.896765:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152726.896812:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152729.696874:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152729.696940:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152730.247044:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152730.247141:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152730.490106:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152730.490159:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152731.932408:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152731.932469:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152732.153524:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152732.153591:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152732.154010:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152732.154065:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152732.156598:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152732.156651:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152733.599998:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152733.600062:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028486:1120/152734.016653:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475][err] [93485:3028523:1120/152734.016719:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[pid=93475] <gracefully close start>\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Send reply' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"button primary\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    168 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m        - element is not enabled\u001b[22m\n\u001b[2m      - retrying click action\u001b[22m\n\u001b[2m        - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n  17 |  test('01 public home sign-in and real database health through frontend',async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Office support. All sorted.'})).toBeVisible();await shot(page,'01-home');await audit(page,'home');const health=await page.evaluate(async()=>{const r=await fetch('/api/health');return {status:r.status,body:await r.json()}});expect(health).toEqual({status:200,body:{status:'ok',database:'connected'}});await page.goto('/signin');await expect(page.getByLabel('Work email')).toBeVisible();await shot(page,'02-sign-in');await audit(page,'signin')});\n  18 |  test('02 employee creates live ticket and database attachment with secure first-party session',async({page,context})=>{await demo(page,'Employee');await expect(page.getByRole('heading',{name:'My tickets',exact:true})).toBeVisible();await shot(page,'03-employee-ticket-list');await audit(page,'employee-list');const cookies=await context.cookies();const session=cookies.find(c=>c.name==='__Host-ticketdesk');expect(!!session&&session.secure&&session.httpOnly&&session.sameSite==='Lax'&&session.domain===new URL(page.url()).hostname).toBe(true);expect(await page.evaluate(()=>document.cookie.includes('ticketdesk'))).toBe(false);await page.reload();await expect(page.getByRole('heading',{name:'My tickets',exact:true})).toBeVisible();await page.getByRole('link',{name:'New request',exact:true}).last().click();await shot(page,'04-new-ticket-form');await audit(page,'new-ticket');await page.getByLabel('Request title').fill(title);await page.getByRole('combobox',{name:'Category',exact:true}).selectOption({label:'IT'});await page.getByRole('combobox',{name:'Priority',exact:true}).selectOption('High');await page.getByLabel('Description',{exact:true}).fill('LIVE E2E TEST: fictional request created only to verify the public TicketDesk demonstration. No real personal data.');await page.getByLabel('Attachment',{exact:true}).setInputFiles({name:'live-e2e-fictional.pdf',mimeType:'application/pdf',buffer:Buffer.from('%PDF-1.4\\n% Live fictional test only\\n%%EOF')});const created=page.waitForResponse(r=>r.request().method()==='POST'&&new URL(r.url()).pathname==='/api/tickets');await page.getByRole('button',{name:'Submit request'}).click();const response=await created;expect(response.status()).toBe(201);const item=await response.json();ticketId=item.id;ticketNumber=item.number;fs.writeFileSync(path.resolve('../evidence',run+'-test-data.json'),JSON.stringify({database:'New TicketDesk Neon demo database',tickets:[{id:ticketId,number:ticketNumber,title,attachment:'live-e2e-fictional.pdf',purpose:'Live browser verification',retained:true}],accountsCreated:[],existingDemoAccountsUsed:['Avery Lane','Jordan Reed','Morgan Vale']},null,2));await expect(page.getByRole('heading',{name:title})).toBeVisible();await expect(page.getByText('On track',{exact:true})).toBeVisible();await expect(page.getByRole('link',{name:/live-e2e-fictional.pdf/})).toBeVisible();await shot(page,'05-ticket-detail-sla');await audit(page,'detail')});\n> 19 |  test('03 agent queue assignment public reply internal note and resolution',async({page})=>{await demo(page,'Agent');await expect(page.getByRole('heading',{name:'Support queue',exact:true})).toBeVisible();await shot(page,'06-agent-queue');await audit(page,'agent-queue');await page.getByLabel('Search tickets').fill(ticketNumber);await page.getByRole('link',{name:title}).click();await page.getByRole('button',{name:'Assign to me'}).click();await expect(page.getByLabel('Ticket assignee')).toHaveValue('2');await page.getByRole('button',{name:'Internal note',exact:true}).click();await page.getByLabel('Internal note',{exact:true}).fill('LIVE E2E TEST private staff note — must remain invisible to the employee.');await page.getByRole('button',{name:'Add internal note'}).click();await expect(page.getByText('LIVE E2E TEST private staff note — must remain invisible to the employee.',{exact:true})).toBeVisible();await shot(page,'07-agent-internal-note');await page.getByRole('button',{name:'Public reply',exact:true}).click();await page.getByLabel('Use a saved reply').selectOption({label:'Taking a look'});await page.getByRole('button',{name:'Send reply'}).click();await expect(page.getByText('Thanks for the details. I am looking into this and will share the next steps shortly.',{exact:true})).toBeVisible();await page.getByLabel('Ticket status').selectOption('Waiting for requester');await expect(page.getByText('Clock paused · waiting for requester')).toBeVisible();await shot(page,'08-sla-paused');await page.getByLabel('Ticket status').selectOption('Resolved');await expect(page.getByLabel('Ticket status')).toHaveValue('Resolved');await page.getByRole('tab',{name:'History',exact:true}).click();await shot(page,'09-history')});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^\n  20 |  test('04 employee notifications privacy rating and closure',async({page})=>{await demo(page,'Employee');await page.getByRole('button',{name:/Notifications,/}).click();await expect(page.getByRole('heading',{name:'Notifications',exact:true})).toBeVisible();await shot(page,'10-notifications');await audit(page,'notifications');await page.getByRole('button',{name:'Close notifications'}).click();await page.goto('/tickets/'+ticketId);await expect(page.getByRole('heading',{name:title})).toBeVisible();await expect(page.getByText('LIVE E2E TEST private staff note — must remain invisible to the employee.',{exact:true})).toHaveCount(0);await expect(page.getByRole('button',{name:'Internal note',exact:true})).toHaveCount(0);await page.getByRole('button',{name:'5 stars',exact:true}).click();await page.getByLabel('Anything else you’d like to share? (optional)').fill('LIVE E2E TEST rating: fictional verification feedback.');await page.getByRole('button',{name:'Submit rating'}).click();await expect(page.getByRole('heading',{name:'Thanks for the feedback.'})).toBeVisible();await page.getByLabel('Ticket status').selectOption('Closed');await expect(page.getByLabel('Ticket status')).toHaveValue('Closed');await shot(page,'11-closed-and-rated')});\n  21 |  test('05 admin reports light dark and CSV export',async({page})=>{await demo(page,'Admin');await expect(page.getByRole('heading',{name:'Support, by the numbers.'})).toBeVisible();await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'12-reports-light');await audit(page,'reports-light');const download=page.waitForEvent('download');await page.getByRole('link',{name:'Export CSV'}).click();const stream=await(await download).createReadStream();let text='';for await(const chunk of stream!)text+=chunk.toString();expect(text).toContain('Summary,total,');expect(text).toContain('sla_compliance');await page.getByRole('button',{name:'Switch to dark theme'}).click();await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.getByText('Requests over time',{exact:true})).toBeVisible();await shot(page,'13-reports-dark');await audit(page,'reports-dark')});\n  22 |  test('06 admin configuration pages and role visibility',async({page})=>{await demo(page,'Admin');await page.getByRole('link',{name:'Administration',exact:true}).click();await expect(page.getByRole('heading',{name:'People & roles',exact:true})).toBeVisible();await shot(page,'14-admin-users');await audit(page,'admin-users');for(const [tab,name] of [['Categories','15-admin-categories'],['SLA rules','16-admin-sla'],['Saved replies','17-admin-saved-replies']]){await page.getByRole('tab',{name:tab,exact:true}).click();await shot(page,name);await audit(page,name)}});\n    at /Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts:19:1160"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:57:32.071Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results/live-Live-PostgreSQL-and-c-692c8-nternal-note-and-resolution/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-6c19e7da1ca88e58fd88",
+              "file": "live.spec.ts",
+              "line": 19,
+              "column": 2
+            },
+            {
+              "title": "04 employee notifications privacy rating and closure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:59:02.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-3098edfa593846c56969",
+              "file": "live.spec.ts",
+              "line": 20,
+              "column": 2
+            },
+            {
+              "title": "05 admin reports light dark and CSV export",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:59:02.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-9847c1e6d484beb47231",
+              "file": "live.spec.ts",
+              "line": 21,
+              "column": 2
+            },
+            {
+              "title": "06 admin configuration pages and role visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:59:02.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-71d6f864a6b7ba3a57f2",
+              "file": "live.spec.ts",
+              "line": 22,
+              "column": 2
+            },
+            {
+              "title": "07 mobile light dark and responsive overflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:59:02.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-dc29644c2a1bbe471ef0",
+              "file": "live.spec.ts",
+              "line": 23,
+              "column": 2
+            },
+            {
+              "title": "08 browser API requests stayed on the frontend domain",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T09:59:02.463Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-8c80fc5b44154308e969",
+              "file": "live.spec.ts",
+              "line": 24,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T09:57:19.676Z",
+    "duration": 102805.27,
+    "expected": 2,
+    "skipped": 5,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

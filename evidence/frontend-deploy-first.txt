@@ -1,0 +1,44 @@
+Vercel CLI 64.2.0
+Deploying ticketdesk-frontend
+Uploading [--------------------] (0.0B/541.2KB)
+Uploading [=====---------------] (138.2KB/541.2KB)
+Uploading [==========----------] (282.8KB/541.2KB)
+Uploading [===============-----] (415.7KB/541.2KB)
+Uploading [====================] (541.2KB/541.2KB)
+  Inspect         https://vercel.com/divya-6411/ticketdesk-frontend/BEUJkTAZ368C4RvaDfZpKK75xLur
+  Production      https://ticketdesk-frontend-5xd0yvtm6-divya-6411.vercel.app
+https://ticketdesk-frontend-5xd0yvtm6-divya-6411.vercel.appBuilding…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 27 deployment files...
+Running "vercel build"
+Vercel CLI 66.2.0
+Installing dependencies...
+npm warn Unknown env config "cache-dir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+added 123 packages in 4s
+22 packages are looking for funding
+run `npm fund` for details
+npm warn Unknown env config "cache-dir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+> ticketdesk-web@1.0.0 build
+> tsc -b && vite build
+[2K[1A[2K[G  Production      https://ticketdesk-frontend-5xd0yvtm6-divya-6411.vercel.app
+Completing…
+▲ Aliased         https://ticketdesk-frontend-psi.vercel.app
+
+✓ Ready in 20s
+
+! Deployment Protection is on for this project (Vercel Authentication). Use `vercel curl` to access it.
+
+Next steps:
+- Automatically deploy changes on every push by connecting Git:
+  vercel git connect --scope divya-6411
+- Check the production response:
+  vercel curl https://ticketdesk-frontend-psi.vercel.app --scope divya-6411
+- View build logs:
+  vercel inspect ticketdesk-frontend-5xd0yvtm6-divya-6411.vercel.app --logs --scope divya-6411
+- Create a new deployment from the same source:
+  vercel redeploy ticketdesk-frontend-5xd0yvtm6-divya-6411.vercel.app --scope divya-6411

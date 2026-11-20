@@ -1,0 +1,43 @@
+Vercel CLI 64.2.0
+Deploying ticketdesk-frontend
+Uploading [--------------------] (0.0B/329.9KB)
+Uploading [=====---------------] (82.7KB/329.9KB)
+Uploading [==========----------] (172.2KB/329.9KB)
+Uploading [===============-----] (252.2KB/329.9KB)
+Uploading [====================] (329.9KB/329.9KB)
+  Inspect         https://vercel.com/divya-6411/ticketdesk-frontend/GNU3kewRKx9uDgN4oTHtVkih8f8M
+  Production      https://ticketdesk-frontend-4o8fbzoxo-divya-6411.vercel.app
+https://ticketdesk-frontend-4o8fbzoxo-divya-6411.vercel.appBuilding…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Downloading 33 deployment files...
+Restored build cache from previous deployment (BEUJkTAZ368C4RvaDfZpKK75xLur)
+Running "vercel build"
+Vercel CLI 66.2.0
+Installing dependencies...
+npm warn Unknown env config "cache-dir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+up to date in 755ms
+22 packages are looking for funding
+run `npm fund` for details
+npm warn Unknown env config "cache-dir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+> ticketdesk-web@1.0.0 build
+> tsc -b && vite build
+[2K[1A[2K[G  Production      https://ticketdesk-frontend-4o8fbzoxo-divya-6411.vercel.app
+Completing…
+▲ Aliased         https://ticketdesk-frontend-psi.vercel.app
+
+✓ Ready in 15s
+
+! Deployment Protection is on for this project (Vercel Authentication). Use `vercel curl` to access it.
+
+Next steps:
+- Automatically deploy changes on every push by connecting Git:
+  vercel git connect --scope divya-6411
+- Check the production response:
+  vercel curl https://ticketdesk-frontend-psi.vercel.app --scope divya-6411
+- View build logs:
+  vercel inspect ticketdesk-frontend-4o8fbzoxo-divya-6411.vercel.app --logs --scope divya-6411
+- Create a new deployment from the same source:
+  vercel redeploy ticketdesk-frontend-4o8fbzoxo-divya-6411.vercel.app --scope divya-6411

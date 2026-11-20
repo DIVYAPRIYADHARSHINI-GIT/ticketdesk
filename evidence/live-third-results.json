@@ -1,0 +1,549 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/26.13.1/bin/node",
+      "/Users/softage/Designer Projects/starter/ticketdesk/frontend/node_modules/.bin/playwright",
+      "test",
+      "-c",
+      "playwright.live.config.ts"
+    ],
+    "configFile": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/playwright.live.config.ts",
+    "rootDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "snapshotDir": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://ticketdesk-frontend-psi.vercel.app",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "video": "off",
+          "screenshot": "off",
+          "launchOptions": {
+            "args": [
+              "--test-third-party-cookie-phaseout"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../evidence/live-third-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "live.spec.ts",
+      "file": "live.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Live PostgreSQL and cross-domain proxy verification",
+          "file": "live.spec.ts",
+          "line": 16,
+          "column": 15,
+          "specs": [
+            {
+              "title": "01 public home sign-in and real database health through frontend",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4139,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:39.598Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-38de4fa221b4d285a5f1",
+              "file": "live.spec.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "02 employee creates live ticket and database attachment with secure first-party session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4020,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:44.951Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-cb3cf2bf906982c36434",
+              "file": "live.spec.ts",
+              "line": 18,
+              "column": 2
+            },
+            {
+              "title": "03 agent queue assignment public reply internal note and resolution",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6240,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:48.981Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-6c19e7da1ca88e58fd88",
+              "file": "live.spec.ts",
+              "line": 19,
+              "column": 2
+            },
+            {
+              "title": "04 employee notifications privacy rating and closure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4416,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:55.230Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-3098edfa593846c56969",
+              "file": "live.spec.ts",
+              "line": 20,
+              "column": 2
+            },
+            {
+              "title": "05 admin reports light dark and CSV export",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3760,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:03:59.659Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-9847c1e6d484beb47231",
+              "file": "live.spec.ts",
+              "line": 21,
+              "column": 2
+            },
+            {
+              "title": "06 admin configuration pages and role visibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3224,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:04:03.430Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-71d6f864a6b7ba3a57f2",
+              "file": "live.spec.ts",
+              "line": 22,
+              "column": 2
+            },
+            {
+              "title": "07 mobile light dark and responsive overflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3375,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:04:06.668Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-dc29644c2a1bbe471ef0",
+              "file": "live.spec.ts",
+              "line": 23,
+              "column": 2
+            },
+            {
+              "title": "08 browser API requests stayed on the frontend domain",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                        "line": 16,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 553,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-20T10:04:10.056Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "/Users/softage/Designer Projects/starter/ticketdesk/frontend/live-tests/live.spec.ts",
+                            "line": 16,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37044e47a10d94689f2-8c80fc5b44154308e969",
+              "file": "live.spec.ts",
+              "line": 24,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-20T10:03:39.240Z",
+    "duration": 31571.681999999997,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

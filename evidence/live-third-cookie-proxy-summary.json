@@ -1,0 +1,9 @@
+{
+  "apiRequestOrigins": [
+    "https://ticketdesk-frontend-psi.vercel.app"
+  ],
+  "thirdPartyCookiePhaseoutFlag": true,
+  "secureHttpOnlyHostOnlySessionVerified": true,
+  "reloadPersistenceVerified": true,
+  "unexpectedConsoleErrors": 0
+}

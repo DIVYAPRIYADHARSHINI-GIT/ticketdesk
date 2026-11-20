@@ -1,0 +1,107 @@
+{
+  "browser_runs": {
+    "live-first-results.json": {
+      "expected": 2,
+      "unexpected": 1,
+      "skipped": 5,
+      "flaky": 0,
+      "duration": 102805.27
+    },
+    "live-second-results.json": {
+      "expected": 2,
+      "unexpected": 1,
+      "skipped": 5,
+      "flaky": 0,
+      "duration": 99266.778
+    },
+    "live-third-results.json": {
+      "expected": 8,
+      "unexpected": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 31571.681999999997
+    },
+    "local-composer-results.json": {
+      "expected": 10,
+      "unexpected": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 19004.220999999998
+    },
+    "local-fifth-results.json": {
+      "expected": 10,
+      "unexpected": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 21321.004
+    },
+    "local-final-results.json": {
+      "expected": 10,
+      "unexpected": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 21157.363999999998
+    },
+    "local-first-results.json": {
+      "expected": 3,
+      "unexpected": 1,
+      "skipped": 6,
+      "flaky": 0,
+      "duration": 61456.233
+    },
+    "local-fourth-results.json": {
+      "expected": 6,
+      "unexpected": 1,
+      "skipped": 3,
+      "flaky": 0,
+      "duration": 17069.789
+    },
+    "local-second-results.json": {
+      "expected": 3,
+      "unexpected": 1,
+      "skipped": 6,
+      "flaky": 0,
+      "duration": 10998.869
+    }
+  },
+  "accessibility": {
+    "local-composer": {
+      "pages": 18,
+      "violations": 0
+    },
+    "local-final": {
+      "pages": 18,
+      "violations": 0
+    },
+    "live-third": {
+      "pages": 16,
+      "violations": 0
+    }
+  },
+  "live_test_tickets": [
+    {
+      "id": 61,
+      "number": "TD-1061",
+      "title": "LIVE E2E TEST \u2014 fictional headset check 1795168640064",
+      "attachment": "live-e2e-fictional.pdf",
+      "purpose": "Live browser verification",
+      "retained": true
+    },
+    {
+      "id": 62,
+      "number": "TD-1062",
+      "title": "LIVE E2E TEST \u2014 fictional headset check 1795168828128",
+      "attachment": "live-e2e-fictional.pdf",
+      "purpose": "Live browser verification",
+      "retained": true
+    },
+    {
+      "id": 63,
+      "number": "TD-1063",
+      "title": "LIVE E2E TEST \u2014 fictional headset check 1795169019589",
+      "attachment": "live-e2e-fictional.pdf",
+      "purpose": "Live browser verification",
+      "retained": true
+    }
+  ]
+}

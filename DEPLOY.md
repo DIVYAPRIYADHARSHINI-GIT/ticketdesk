@@ -1,5 +1,14 @@
 # TicketDesk deployment guide
 
+## Verified deployment links
+
+- Frontend: https://ticketdesk-frontend-psi.vercel.app
+- Backend: https://ticketdesk-backend.vercel.app
+- Real database health: https://ticketdesk-backend.vercel.app/health
+- Repository: https://github.com/DIVYAPRIYADHARSHINI-GIT/ticketdesk
+
+The successful live Chrome run passed all 8 journeys and 16 axe audits after the composer fix. The API-origin inventory contains only the frontend domain. The production aliases are publicly reachable; the CLI's generic Deployment Protection notice did not block these aliases. Git auto-deploy is not connected; the verified deployments used the CLI.
+
 ## Safety and permissions
 
 This session obtained separate explicit approvals for GitHub, Vercel, and a **new** free Neon database plus TicketDesk-only environment changes. Never interpret those approvals as permission to change another project. Account verified: GitHub `DIVYAPRIYADHARSHINI-GIT`; Vercel user `divyapriyadharshini-git`, team `divya-6411` (Divya), plan **Hobby**. Neon was provisioned with plan ID **free_v3**, name **ticketdesk-db**, Singapore region, built-in Neon auth disabled (TicketDesk implements its own sessions).

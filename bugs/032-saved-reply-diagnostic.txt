@@ -1,0 +1,8 @@
+Saved reply metadata (no message bodies): [{"id":1,"idType":"number","title":"Taking a look","bodyLength":85,"bodyType":"string"},{"id":2,"idType":"number","title":"More information","bodyLength":94,"bodyType":"string"},{"id":3,"idType":"number","title":"Resolution check","bodyLength":119,"bodyType":"string"}]
+Options: [
+  { value: '', label: 'Use a saved reply' },
+  { value: '1', label: 'Taking a look' },
+  { value: '2', label: 'More information' },
+  { value: '3', label: 'Resolution check' }
+]
+Composer after selection: { length: 85, disabled: false }

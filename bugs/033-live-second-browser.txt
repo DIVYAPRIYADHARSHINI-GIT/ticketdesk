@@ -1,0 +1,23 @@
+
+Running 8 tests using 1 worker
+
+  ✓  1 live-tests/live.spec.ts:17:2 › Live PostgreSQL and cross-domain proxy verification › 01 public home sign-in and real database health through frontend (2.7s)
+  ✓  2 live-tests/live.spec.ts:18:2 › Live PostgreSQL and cross-domain proxy verification › 02 employee creates live ticket and database attachment with secure first-party session (4.2s)
+  ✘  3 live-tests/live.spec.ts:19:2 › Live PostgreSQL and cross-domain proxy verification › 03 agent queue assignment public reply internal note and resolution (1.5m)
+  -  4 live-tests/live.spec.ts:20:2 › Live PostgreSQL and cross-domain proxy verification › 04 employee notifications privacy rating and closure
+  -  5 live-tests/live.spec.ts:21:2 › Live PostgreSQL and cross-domain proxy verification › 05 admin reports light dark and CSV export
+  -  6 live-tests/live.spec.ts:22:2 › Live PostgreSQL and cross-domain proxy verification › 06 admin configuration pages and role visibility
+  -  7 live-tests/live.spec.ts:23:2 › Live PostgreSQL and cross-domain proxy verification › 07 mobile light dark and responsive overflow
+  -  8 live-tests/live.spec.ts:24:2 › Live PostgreSQL and cross-domain proxy verification › 08 browser API requests stayed on the frontend domain
+
+
+  1) live-tests/live.spec.ts:19:2 › Live PostgreSQL and cross-domain proxy verification › 03 agent queue assignment public reply internal note and resolution 
+
+    Test timeout of 90000ms exceeded.
+
+    Error Context: test-results/live-Live-PostgreSQL-and-c-692c8-nternal-note-and-resolution/error-context.md
+
+  1 failed
+    live-tests/live.spec.ts:19:2 › Live PostgreSQL and cross-domain proxy verification › 03 agent queue assignment public reply internal note and resolution 
+  5 did not run
+  2 passed (1.7m)

@@ -1,0 +1,19 @@
+{
+  "database": "New TicketDesk Neon demo database",
+  "tickets": [
+    {
+      "id": 61,
+      "number": "TD-1061",
+      "title": "LIVE E2E TEST — fictional headset check 1795168640064",
+      "attachment": "live-e2e-fictional.pdf",
+      "purpose": "Live browser verification",
+      "retained": true
+    }
+  ],
+  "accountsCreated": [],
+  "existingDemoAccountsUsed": [
+    "Avery Lane",
+    "Jordan Reed",
+    "Morgan Vale"
+  ]
+}

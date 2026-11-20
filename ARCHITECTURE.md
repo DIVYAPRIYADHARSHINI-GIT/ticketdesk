@@ -60,3 +60,11 @@ Isolated temporary SQLite for pytest; test all roles and IDOR paths, note leakag
 
 ## Deployment readiness
 Check current official Vercel Python support before pinning. Same dependency pins in both manifests. Frontend API proxy target configured at build, never expose secrets through VITE_ variables. Environment examples are documentation only and gitignored per user request. All env variants, databases, venvs, caches, tokens, local Vercel metadata and generated large files ignored. No hosted credentials read or downloaded. Migration/seed require an explicitly approved connection provided through the service dashboard or secure process environment. Public demo hosting is conditional on free-plan personal/non-commercial eligibility and limits.
+
+## Implementation refinements recorded after the initial plan
+- Final supported runtime is Python 3.14: local verification on 3.14.6, Vercel native FastAPI build on 3.14.8. Direct dependency pins match across both manifests; uv.lock also records resolution.
+- Migrations and seed run in the remote Vercel build with `uv run --python 3.14 python -m app.prepare`. Credentials remain injected on the host; they are never pulled to local files. Explicit framework=fastapi avoids a static-project misclassification. Both the backend runtime and Neon are in Singapore.
+- Request bodies are bounded to a 1,100,000-byte envelope before parsing; the exact file limit remains 1,048,576 bytes. Uploads reject multiple multipart parts.
+- PostgreSQL/SQLite UTC day grouping explicitly applies SQL FLOOR before integer conversion. CSV is assembled from bounded aggregate rows, not streamed from raw tickets. All report calculations remain SQL aggregations.
+- The public demo is single-organisation, not multitenant. Demo role identities are protected from role/deactivation changes. The users screen currently caps its list at 1,000 users.
+- Actual deployed frontend origin is https://ticketdesk-frontend-psi.vercel.app; backend is https://ticketdesk-backend.vercel.app. GitHub repository is https://github.com/DIVYAPRIYADHARSHINI-GIT/ticketdesk. Live browser verification is reported separately in FINAL_REPORT.md.

@@ -1,0 +1,2 @@
+https://ticketdesk-backend.vercel.app/health 200 {'status': 'ok', 'database': 'connected'}
+https://ticketdesk-frontend-psi.vercel.app/api/health 200 {'status': 'ok', 'database': 'connected'}

@@ -2,6 +2,14 @@
 
 **A little help for a better workday.** An original internal-helpdesk product with a React web application and a separate FastAPI API. This repository is a clearly labelled fictional **Larkspur Studio** sandbox, not a production employee-data service.
 
+## Links
+
+- Web app: https://ticketdesk-frontend-psi.vercel.app
+- API health (real database query): https://ticketdesk-backend.vercel.app/health
+- Public repository: https://github.com/DIVYAPRIYADHARSHINI-GIT/ticketdesk
+
+These are a fictional public demo and its API, not a confidential production service. See FINAL_REPORT.md for the actual live test results.
+
 ## What it does
 
 Employees raise IT, HR, Admin and Facilities requests, follow their own conversations, attach a file, close/reopen tickets and rate support. Agents work a shared searchable, filterable, sorted, paginated queue; bulk-assign work, send public replies, use saved replies and keep private internal notes. Administrators also manage users/roles, categories, SLA targets and saved replies, and view SQL-aggregated reports and CSV exports.
